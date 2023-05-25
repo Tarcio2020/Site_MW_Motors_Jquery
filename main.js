@@ -4,8 +4,9 @@ $(document).ready(function() {
         autoplay: true, 
 });
 
-
-$('.menu-hamburguer').click(function(){
-    $('nav').slideToggle();
+$('.menu-hamburguer').click(function(){ //ao clicar no menu hamburguer teremos o slideToggle//
+    $('nav').slideToggle();// essa função espande e recolhe o menu ao segundo click//
 })
+
+
 });

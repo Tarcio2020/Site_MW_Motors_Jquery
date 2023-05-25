@@ -3,26 +3,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 html {
-    overflow-x: hidden;
+    overflow: hidden; /*cortar tudo fora da imagem*/
 }
 
 .container {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 header {
     background-color: #192a56;
     padding-top: 16px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 header > .container {
-    
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
@@ -30,8 +32,9 @@ header > .container {
 }
 
 nav {
-    background-color: rgb(73, 72, 72);
+    background-color: #1d269e;
     padding: 16px 0;
+    display: none;
 }
 
 nav li {
@@ -41,17 +44,17 @@ nav li {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 nav li a {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .menu-hamburguer {
     width: 32px;
-    cursor: pointer;
-
+    cursor: pointer;  /*para o usuário saber que o botão é clicavel*/
 }
 
 
@@ -63,75 +66,11 @@ nav li a {
     margin-bottom: 5px;
 }   
 
-
 .container-flex {
     display: flex;
+    align-items: center;
 }
 
-#sobre-a-loja img {
-    max-width: 400px;
-    margin-right: 24px;
-}
-
-
-section {
-    padding:  48px 0;
-
-}
-
-section h2 {
-    margin-bottom: 16px;
-
-}
-.lista-de-veiculos {
-    flex-wrap: wrap;
-}
-
-.lista-de-veiculos li {
-    list-style: none;
-    max-width: 30%;
-}
-
-
-.lista-de-veiculos img {
-    max-width: 100%;
-
-}
-
-.lista-de-veiculos li h3 {
-    margin: 16px 0;
-}
-
-
-.item-central {
-    margin: 0 5%;
-}
-
-.lista-de-veiculos li button {
-    display: block;
-    width: 100%;
-    padding: 8px 0;
-    border: none;
-    background-color: #119759;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom:20px;
-    cursor: pointer;
-    border-radius: 9px;
-}
-
-
-.price {
-    margin: 16px 0;
-    display: block;
-    
-}
-
-
-
-.price del {
-    color: #717171;
-    font-size: 14px;
+.dis {
+    display: fixed;
 }
