@@ -64,3 +64,5 @@ $('.lista-de-veiculos button').click(function() {
 })
 
 });
+
+//>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<
