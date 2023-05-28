@@ -13,7 +13,7 @@ $('#telefone').mask('(00) 00000-0000',{
     placeholder: '(00) 00000-0000'
 })
     
-//$('#telefone').mask('00/00/0000', 
+//$('#telefone').mask('00/00/0000', {
     
 //  placeholder: '__/__/____'<<<<
 $('form').validate({
@@ -62,7 +62,5 @@ $('.lista-de-veiculos button').click(function() {
     }, 1000)
 
 })
-
-
 
 });
