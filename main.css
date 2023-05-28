@@ -4,9 +4,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+ 
     
 }
 
+body{
+    background-color: rgb(249, 251, 253);
+}
 html {
     overflow-x: hidden;
 }
@@ -50,7 +54,7 @@ footer > .container {
 
 nav {
     background-color:#192a56;
-    padding: 15px 0;
+    padding: 20px 0;
     opacity: 0.8;
  }
 
@@ -97,6 +101,11 @@ nav li a {
     display: flex;
     margin-left: 55px;
     
+}
+
+#titulo-Anuncios {
+    display: flex;
+    justify-content: center;
 }
 
 #sobre-a-loja img {
@@ -222,7 +231,6 @@ footer div li {
 
 
 #titulo-Anuncios {
-  margin-left: 100px;
   margin-bottom: 30px;
 }
 
