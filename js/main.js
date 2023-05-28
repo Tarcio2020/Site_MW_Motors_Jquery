@@ -15,7 +15,7 @@ $('#telefone').mask('(00) 00000-0000',{
     
 //$('#telefone').mask('00/00/0000', {
     
-//  placeholder: '__/__/____'
+//  placeholder: '__/__/____'<<<<
 $('form').validate({
     rules: {
         nome: {
@@ -50,5 +50,17 @@ $('form').validate({
     }
 })
 
+
+$('.lista-de-veiculos button').click(function() {
+    const destino = $('#contato');
+    const nomeVeiculo = $(this).parent().find('h3').text();
+    
+    $('#veiculo-interesse').val(nomeVeiculo);
+
+    $('html').animate({
+        scrollTop: destino.offset().top
+    }, 1000)
+
+})
 
 });
