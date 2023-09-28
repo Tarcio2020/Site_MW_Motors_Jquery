@@ -6,37 +6,27 @@
     width: 100%;
     
 }
-
 html {
     overflow-x: hidden;
 }
-
 .container {
     width: 100%;
     margin: 0 auto;
     display: flex;
 }
-
 header, footer {
     background-color: #192a56;
     color: aliceblue;
-    height: 62px;
-    padding-top: 9px;
+    height: 80px;
+    padding-top: 24px;
     padding-bottom: 20;
-    
-    
-    
-    
 }
-
-
 header {
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
 }
-
 header > .container
 footer > .container {
     
@@ -45,14 +35,11 @@ footer > .container {
     padding-bottom: 16px;
 
 }
-
-
 nav {
     background-color:#192a56;
     padding: 15px 0;
     opacity: 0.8;
  }
-
  #up {
     display: none;
  }
@@ -65,84 +52,58 @@ nav li {
     font-weight: bold;
     text-transform: uppercase;
 }
-
 nav li a {
     color: aliceblue;
     text-decoration: none;
 }
-
 .menu-hamburguer {
     width: 32px;
     cursor: pointer;
     margin-top: 13.2px;
-
-    
 }
-
-
 .menu-hamburguer span {
     height: 2px;
     width: 100%;
     background-color: aliceblue;
     display: block;
     margin-bottom: 5px;
-  
-
 }   
-
-
-
 .container-flex {
     display: flex;
     margin-left: 55px;
     
 }
-
 #sobre-a-loja img {
     max-width: 400px;
     margin-right: 24px;
     border-radius: 9px;
-
 }
-
-
 section {
     padding:  48px 0;
-
-
 }
-
 section h2 {
     margin-bottom: 16px;
-
 }
 .lista-de-veiculos {
     flex-wrap: wrap;
 }
-
 .lista-de-veiculos li {
     list-style: none;
     max-width: 30%;
-    
-    
+      
 }
-
 .lista-de-veiculos img {
     max-width: 300px;
     width: 300px;
     border-radius: 9px;
 }
-
 .lista-de-veiculos li h3 p {
     margin: 16px 0;
     width: 350px;
 }
-
-
 .item-central {
     margin: 0 15px;
 }
-
 button {
     display: block;
     width: 300px;
@@ -157,69 +118,49 @@ button {
     cursor: pointer;
     border-radius: 9px;
 }
-
-
 .price {
     margin: 16px 0;
     display: block;
     
 }
-
-
 .price del {
     color: #717171;
     font-size: 14px;
 }
-
 .form-campo {
     margin-bottom: 16px;
 }
-
-
 .form-campo label{
     font-weight: bold;
     display: block;
 }
-
 .form-campo input,
 .form-campo textarea {
     width: 100%;
     display: block;
     padding: 8px;
 }
-
 .form-campo textarea {
     resize: none; /*imposibilita o usuário a aumentar o textarea*/
     height: 120px;
 }
-
-
 form {
     max-width: 360px;
 }
-
 form button {
     max-width: 120px;
 }
-
-
 footer div img {
     height: 27px;
     width: 27px;
     align-content: space-between;
     margin-left: 100px;
     align-items: center;
-    justify-content: center;
-
-    
+    justify-content: center; 
 }
-
 footer div li {
     list-style: none;
-
 }
-
-
 #titulo-Anuncios {
   margin-left: 100px;
   margin-bottom: 30px;
